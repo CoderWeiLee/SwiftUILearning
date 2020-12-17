@@ -12,6 +12,7 @@
 		D07F066325833B6B00075C9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F066225833B6B00075C9B /* ContentView.swift */; };
 		D07F066525833B6D00075C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07F066425833B6D00075C9B /* Assets.xcassets */; };
 		D07F066825833B6D00075C9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07F066725833B6D00075C9B /* Preview Assets.xcassets */; };
+		D0F564CB258B3B7E00C9FF27 /* SwiftLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F564CA258B3B7E00C9FF27 /* SwiftLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		D07F066425833B6D00075C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D07F066725833B6D00075C9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D07F066925833B6D00075C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F564CA258B3B7E00C9FF27 /* SwiftLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearning.swift; sourceTree = "<group>"; };
+		D0F564CD258B3B9600C9FF27 /* SwiftLearning.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftLearning.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 				D07F066025833B6B00075C9B /* CalculatorApp.swift */,
 				D07F066225833B6B00075C9B /* ContentView.swift */,
 				D0093FDD25834E7400D53B9C /* CalculatorButtonItem.swift */,
+				D0F564CA258B3B7E00C9FF27 /* SwiftLearning.swift */,
+				D0F564CD258B3B9600C9FF27 /* SwiftLearning.playground */,
 				D07F066425833B6D00075C9B /* Assets.xcassets */,
 				D07F066925833B6D00075C9B /* Info.plist */,
 				D07F066625833B6D00075C9B /* Preview Content */,
@@ -144,6 +149,7 @@
 				D07F066325833B6B00075C9B /* ContentView.swift in Sources */,
 				D07F066125833B6B00075C9B /* CalculatorApp.swift in Sources */,
 				D0093FDE25834E7400D53B9C /* CalculatorButtonItem.swift in Sources */,
+				D0F564CB258B3B7E00C9FF27 /* SwiftLearning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

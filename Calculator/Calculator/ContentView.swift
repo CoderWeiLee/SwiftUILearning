@@ -14,14 +14,18 @@ struct CalculatorButton: View {
     let action: () -> Void
     
     var body: some View {
-        Button(action: action, label: {
-            Text(title)
-                .font(.system(size: fontSize))
-                .foregroundColor(.white)
-                .frame(width: size.width, height: size.height)
-                .background(Color(backgroundColorName))
-                .cornerRadius(size.width / 2)
-        })
+                    ZStack {
+                        Button(action: action, label: {
+                            Text(title)
+                                .foregroundColor(.white
+                                )
+                                .font(.system(size: fontSize))
+                                .frame(width: size.width, height: size.height)
+                                .background(Color(backgroundColorName))
+                        })
+//                        RoundedRectangle(cornerRadius: size.width / 2).fill(Color.clear).frame(width: size.width, height: size.height)
+                    }
+                    .cornerRadius(size.width / 2)
     }
 }
 
@@ -76,8 +80,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
-            ContentView().previewDevice("iPhone SE (2nd generation)")
+            ContentView().environment(\.colorScheme, .dark)
         }
     }
 }
